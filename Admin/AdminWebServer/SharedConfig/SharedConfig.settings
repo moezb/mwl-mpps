@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AdminWebServer.SharedConfig" GeneratedClassName="SharedConfig">
+  <Profiles />
+  <Settings>
+    <Setting Name="LastUpdatedDate" Type="System.DateTime" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MwlAETitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DsMWLServer</Value>
+    </Setting>
+    <Setting Name="MwlPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">2121</Value>
+    </Setting>
+    <Setting Name="MWLMaxResponsesToSend" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="LastUpdatedFrom" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AdminPwdHash" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">2E-35-E6-98-C9-D7-2A-FB-95-B2-DA-3E-3A-E8-93-3B</Value>
+    </Setting>
+    <Setting Name="AcceptAllAETRequests" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="RestrictedAET" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;mwlscu;127.0.0.1;2110&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="MppsAETitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DsMPPSServer</Value>
+    </Setting>
+    <Setting Name="MWLResponseBufferCapacity" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="MppsPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">2122</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

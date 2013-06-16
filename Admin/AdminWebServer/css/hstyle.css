@@ -1,0 +1,154 @@
+/* --file-- hstyle.css
+ *
+ * Copyright (c) 2005, 2006 Justen Software LLC, also known as
+ * justen.com and hiplatform.org. All rights reserved.
+ * This material is made available under the terms of the HiPlatform V1
+ * License. For more information, visit http://www.justen.com
+ */
+
+// force images to behave as in strict doc type 
+img { display:block }
+
+.hbasic,
+.hbasic-small
+	{font-family: "Trebuchet MS", "Lucida Grande", "Segoe UI", Corbel, Tahoma, "Lucida Sans Unicode", sans-serif;
+	font-size:11px}
+
+.htable-main,
+.htable-main-inner,
+.htable-heading,
+.htable-data 
+	{font-family: "Trebuchet MS", "Lucida Grande", "Segoe UI", Corbel, Tahoma, "Lucida Sans Unicode", sans-serif;
+	font-size:11px}
+.htable-main
+	{border: 1px solid #B3CFFC; background-color:white}
+.htable-main-inner
+	{border-left: 1px solid white; border-top: 1px solid white}
+	/* border size of 1 for this and last style assumed by HTable_locateAndSizeTable & _setClipForHorScrollbar methods */
+.htable-heading
+	{background-color:#EBEADB}
+.htable-heading-border
+	{background-color: #D6D2C2;}
+.hscrollbar-thumb
+	{border: 1px solid white; background-color:#B3CFFC}
+.hverscrollbar-main
+	{width:16px; background-color:#FBFBF8; border-left: 1px solid #F6F5F0}
+.hhorscrollbar-main
+	{height:16px; background-color:#FBFBF8; border-top: 1px solid #F6F5F0}
+	/* border size + width of this and last style hardwired into HTable constants */
+	
+.htoolbar-main,
+.htoolbar-button,
+.htoolbar-bkg
+	{background-color:#EBEADB}
+.htoolbar-main
+	{border: 1px solid #CDCABB; padding-top: 1px}
+	/* border thickness of 1 assumed by 'size -= 2' correction in HToolbar_onload */
+.htoolbar-button
+	{ white-space:nowrap; padding:2px 10px 2px 10px; cursor: default; background-color: inherit; color:inherit }
+.htoolbar-button-label
+	{font-family: "Trebuchet MS", "Lucida Grande", "Segoe UI", Corbel, Tahoma, "Lucida Sans Unicode", sans-serif; 
+	 font-size:11px; vertical-align: middle }
+.htoolbar-button-img
+	{display:inline; cursor:default; text-align:left; vertical-align:middle }
+.htoolbar-separator-horizontal
+	{background-color:#CAC6CF; width:2px; height:100%}
+.htoolbar-separator-vertical
+	{background-color:#CAC6CF; height:2px; width:100%}
+
+.htree-main,
+.htree-text 
+	{font-family: "Trebuchet MS", "Lucida Grande", "Segoe UI", Corbel, Tahoma, "Lucida Sans Unicode", sans-serif;
+	font-size:11px}
+.htree-main
+	{border: 1px solid #B3CFFC; background-color:white}
+
+.htree-text,
+.htree-text-hover,
+.htree-text-selected,
+.htree-text-selected-hover
+	{display:inline; cursor:pointer; text-decoration: none; margin-left: 4px; white-space: nowrap}
+.htree-text {color: black; background-color: white}
+.htree-text-hover {color: blue; text-decoration: underline}
+.htree-text-selected {color: white; background-color: #316ac5}
+.htree-text-selected-hover {color: white; background-color: #316ac5; text-decoration: underline}
+
+.hsplitpane	{background-color:#EBEADB}
+.hsplitpane-dnd {border: #808080 1px dotted; background-color:transparent}
+
+.hmenu,
+.hmenu-main,
+.hmenu-title,
+.hmenu-division,
+.hmenu-option,
+.hmenu-option-rollover,
+.hmenubar-main, 
+.hmenubar-option-rollover
+	{font-family: "Trebuchet MS", "Lucida Grande", "Segoe UI", Corbel, Tahoma, "Lucida Sans Unicode", sans-serif;
+	font-size:11px}
+
+.hmenu-main {border: 1px solid #ACA899; background-color:white; padding:2px 2px 2px 2px}
+.hmenu-title,
+.hmenu-division,
+.hmenu-option
+	{padding:2px 20px 2px 4px; white-space: nowrap; cursor: default; background-color: inherit; color:inherit }
+.hmenu-option-color-normal {background-color: white; color:black}
+.hmenu-option-color-rollover {background-color: #316AC5; color:white}
+
+.hmenu-separator {background-color: #ACA899; height:1px; margin-top:2px; margin-bottom:2px}
+.hmenu-title-color { background-color:#7B7AC5; smackground-color: #57A45E; color:white}
+.hmenu-division-color-normal {background-color:#EBEADB}
+.hmenu-division-color-rollover {background-color: #316AC5; color:white}
+.hmenu-option-img,
+.hmenu-checkmark,
+.hmenu-expander-arrow,
+.hmenu-popup-arrow,
+.hmenu-checkmark-placeholder
+	{ display:inline; text-align:left; vertical-align:middle }
+.hmenu-expander-arrow,
+.hmenu-popup-arrow 
+	{ text-align:right; padding-left: 5px; padding-right: 5px }
+.hmenu-checkmark-placeholder { width:17px }
+
+.hmenubar-main { xborder: 1px solid blue; background-color:#ECE9D8}
+.hmenubar-separator {background-color: #ACA899; height:21px; width:2px}
+.hmenubar-option
+	{ white-space:nowrap; padding:2px 10px 2px 10px; cursor: default; background-color: inherit; color:inherit }
+.hmenubar-option-color-normal {background-color: #ECE9D8}
+.hmenubar-option-color-rollover {background-color: #316AC5; color:white}
+.hmenubar-option-img,
+.hmenubar-popup-arrow
+	{ display:inline; text-align:left; vertical-align:middle; padding-left:5px }
+
+.hmenu-shadow-right,
+.hmenu-shadow-bottom,
+.hmenu-shadow-corner
+	 { filter: alpha(opacity=50); opacity:.50; } 
+.hmenu-shadow-right { background: url(images/menu_shadow_right.gif); background-repeat: repeat-y; vertical-align:top }
+.hmenu-shadow-bottom { background: url(images/menu_shadow_bottom.gif); background-repeat: repeat-x; }
+.hmenu-shadow-cap { display:block; vertical-align:top }
+
+.htab-divider {height: 4px; background-image: url(images/tab_divider_bkg.gif);background-repeat: repeat-x;}
+.htab-active-bkg {padding:0px 10px 0px 10px; height: 24px; background-image: url(images/tab_active_bkg.gif);background-repeat: repeat-x;}
+.htab-active-text {color:white; font-weight: bold; padding: 7px 0px 0px 0px; white-space: nowrap}
+.htab-inactive-bkg {padding:0px 10px 0px 10px; height: 21px; background-image: url(images/tab_inactive_bkg.gif);background-repeat: repeat-x;}
+.htab-inactive-text {color:block; font-weight: normal; padding: 4px 0px 0px 0px; white-space: nowrap}
+	/* vertical-align:middle won't work; must hardwire padding */
+.htab-rounder {vertical-align:bottom}
+
+.hdate,
+.hdate-main,
+.hdate-arrow,
+.hdate-day,
+.hdate-title,
+.hdate-today
+	{font-family: "Trebuchet MS", "Lucida Grande", "Segoe UI", Corbel, Tahoma, "Lucida Sans Unicode", sans-serif;
+	font-size:11px;text-align:center;line-height:13px}
+.hdate-main 
+	{border: 1px solid #B3CFFC; background-color:#ECE9D8}
+.hdate-arrow 
+	{background-color: #B3CFFC; color:black}
+.hdate-day 
+	{background-color: white; color:black}
+.hdate-today 
+	{background-color: #ECE9D8; color:blue}

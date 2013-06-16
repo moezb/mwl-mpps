@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MwlMppsDBBroker.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=.\SQLEXPRESS2005;AttachDbFilename=|DataDirectory|\database\WorkListDB.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
